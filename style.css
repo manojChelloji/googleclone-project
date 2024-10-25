@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    font-family: "Arial";
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box-3 **/
+.nav-search{
+    display: flex;
+    
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content:space-around;
+}
+
+.nav-search:hover{
+    border:2px solid yellow;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border-width: 0px;
+}
+
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1ce6c;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.search-icon i{
+    font-size: 1.15rem;
+    
+}
+
+/** BOX 4 **/
+span{
+    font-size: 0.7rem;
+    font-family:"Roboto";
+    font-weight: 500;
+}
+
+
+.sign-para{
+    font-weight:600;
+}
+
+/** Box5 **/
+
+.nav-cart i{
+    font-size: 33px;
+    
+}
+
+.nav-cart:hover{
+    border: 2px solid white;
+}
+
+.nav-cart{
+    font-size: 0.7rem;
+    font-weight: 650;
+}
+
+/** Menu scc **/
+
+.menu-container{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    
+}
+
+.menu-para{
+    display: flex;
+    width: 74%;
+    font-size: 14px;
+}
+
+.menu-para p{
+    border: 0px solid transparent;
+    margin-left:1.8rem;
+}
+
+
+
+.menu-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/** hero css **/
+
+.hero-container{
+    background-image: url("hero_image.jpg");
+    height: 320px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+    
+.hero-msg{
+    background-color: white;
+    width: 95%;
+    color: black;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hero-msg p{
+    font-size: 0.90rem;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/** box **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+    
+}
+.box{
+    height: 400px;
+    
+    background-color: white;
+    width: 23%;
+    padding-top: 10px;
+    margin-top: 15px;
+    
+}
+
+.box-img{
+    height: 300px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+    
+.img-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.img-container p{
+    color: #007185;
+    font-size: 15px;
+}
+
+/** Footer panal **/
+footer{
+    margin-top: 15px;
+}
+
+.nav-pan{
+    background-color: #37475A;
+    height: 50px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90rem;
+}
+
+ul{
+    
+    color:white;
+    margin-top: 35px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+}
+
+ul p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.pan-list{
+    height: 250px;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.panal3{
+    background-color: #222f3d;
+    height: 78px;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panal3 img{
+    height: 55px;
+}
+
+.panal4{
+    background-color: #131A22;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages a{
+    font-size: 12px;
+}
+
+.amazon-end a{
+    font-size: 12px;
+    
+}
+
+.amazon-end{
+    text-align: center;
+}
