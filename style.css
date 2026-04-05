@@ -30,7 +30,7 @@
 }
 
 .border:hover{
-    border: 2px solid white;
+    border: 1px solid white;
 }
 /** box2 **/
 .add-first{
@@ -60,7 +60,7 @@
 }
 
 .nav-search:hover{
-    border:2px solid yellow;
+    border:1.5px solid yellow;
 }
 
 .search-select{
@@ -116,7 +116,7 @@ span{
 }
 
 .nav-cart:hover{
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .nav-cart{
@@ -157,7 +157,7 @@ span{
 /** hero css **/
 
 .hero-container{
-    background-image: url("hero_image.jpg");
+    background-image: url("game.jpg");
     height: 320px;
     background-size: cover;
     display: flex;
